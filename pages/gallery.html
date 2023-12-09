@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basarabia | Galerie</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/gallery.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/images/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <h2 class="header-sec">Restaurant</h2>
+        <h1 class="header-main">Basarabia</h1>
+      </div>
+
+      <div class="two">
+        <nav class="nav">
+          <a href="/index.html" class="nav-link">Acasă</a>
+          <a href="/pages/menu.html" class="nav-link">Meniu</a>
+          <a href="/pages/gallery.html" class="nav-link">Galerie</a>
+          <a href="/pages/contacts.html" class="nav-link">Contacte</a>
+        </nav>
+        <button class="nav-button" onclick="toggleNav()">Menu</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-gallery">
+        <img
+          src="/gallery/gallery1.jpg"
+          alt=""
+          class="gallery-image"
+          onmouseenter="zoomIn(this)"
+          onmouseleave="zoomOut(this)"
+        />
+        <div
+          class="gallery-test"
+          onmouseover="toggleTextVisibility(this, true)"
+          onmouseout="toggleTextVisibility(this, false)"
+        >
+          <h2 class="test-name">Alexandra Rusu</h2>
+          <p class="test-text">
+            Am fost impresionată de calitatea serviciilor! Personalul a fost
+            extrem de amabil, iar atmosfera a fost relaxantă. Cu siguranță voi
+            reveni!
+          </p>
+        </div>
+
+        <img
+          src="/gallery/gallery2.jpg"
+          alt=""
+          class="gallery-image"
+          onmouseenter="zoomIn(this)"
+          onmouseleave="zoomOut(this)"
+        />
+        <div
+          class="gallery-test"
+          onmouseover="toggleTextVisibility(this, true)"
+          onmouseout="toggleTextVisibility(this, false)"
+        >
+          <h2 class="test-name">Andrei Ceban</h2>
+          <p class="test-text">
+            Mâncarea a fost delicioasă, iar porțiile au fost generoase. Un loc
+            perfect pentru o cină romantică sau pentru a sărbători ocazii
+            speciale.
+          </p>
+        </div>
+
+        <div
+          class="gallery-test"
+          onmouseover="toggleTextVisibility(this, true)"
+          onmouseout="toggleTextVisibility(this, false)"
+        >
+          <h2 class="test-name">Gabriela Ciobanu</h2>
+          <p class="test-text">
+            Oază de relaxare! Spa-ul a fost minunat, iar terapeuții au fost
+            profesioniști. O zi de răsfăț într-un cadru frumos și liniștit.
+          </p>
+        </div>
+        <img
+          src="/gallery/gallery3.jpg"
+          alt=""
+          class="gallery-image"
+          onmouseenter="zoomIn(this)"
+          onmouseleave="zoomOut(this)"
+        />
+
+        <div
+          class="gallery-test"
+          onmouseover="toggleTextVisibility(this, true)"
+          onmouseout="toggleTextVisibility(this, false)"
+        >
+          <h2 class="test-name">Radu Țurcan</h2>
+          <p class="test-text">
+            Locul perfect pentru pasionații de sport! Ecranele mari, băuturile
+            bune și atmosfera prietenoasă fac din acest bar locul ideal pentru a
+            urmări meciurile preferate
+          </p>
+        </div>
+        <img
+          src="/gallery/gallery4.jpg"
+          alt=""
+          class="gallery-image"
+          onmouseenter="zoomIn(this)"
+          onmouseleave="zoomOut(this)"
+        />
+
+        <img
+          src="/gallery/gallery8.jpg"
+          alt=""
+          class="gallery-image"
+          onmouseenter="zoomIn(this)"
+          onmouseleave="zoomOut(this)"
+        />
+        <div
+          class="gallery-test"
+          onmouseover="toggleTextVisibility(this, true)"
+          onmouseout="toggleTextVisibility(this, false)"
+        >
+          <h2 class="test-name">Elena Cebotari</h2>
+          <p class="test-text">
+            Experiența a fost fantastică! Meniul variat a satisfăcut toate
+            gusturile, iar decorul a creat o ambianță plăcută. Recomand cu
+            încredere!
+          </p>
+        </div>
+
+        <img
+          src="/gallery/gallery5.jpg"
+          alt=""
+          class="gallery-image"
+          onmouseenter="zoomIn(this)"
+          onmouseleave="zoomOut(this)"
+        />
+        <div
+          class="gallery-test"
+          onmouseover="toggleTextVisibility(this, true)"
+          onmouseout="toggleTextVisibility(this, false)"
+        >
+          <h2 class="test-name">Ionut Cojocari</h2>
+          <p class="test-text">
+            Serviciul a fost impecabil, iar personalul a fost foarte atent la
+            detalii. Prețurile sunt rezonabile, iar atmosfera este prietenoasă.
+            Voi reveni cu siguranță!"
+          </p>
+        </div>
+
+        <div
+          class="gallery-test"
+          onmouseover="toggleTextVisibility(this, true)"
+          onmouseout="toggleTextVisibility(this, false)"
+        >
+          <h2 class="test-name">Maria Țurcanu</h2>
+          <p class="test-text">
+            Am avut parte de o experiență culinară de neuitat! Meniul inovator
+            și preparatele gustoase au depășit așteptările mele. Recomand cu
+            căldură!
+          </p>
+        </div>
+        <img
+          src="/gallery/gallery6.jpg"
+          alt=""
+          class="gallery-image"
+          onmouseenter="zoomIn(this)"
+          onmouseleave="zoomOut(this)"
+        />
+
+        <div
+          class="gallery-test"
+          onmouseover="toggleTextVisibility(this, true)"
+          onmouseout="toggleTextVisibility(this, false)"
+        >
+          <h2 class="test-name">Victor Munteanu</h2>
+          <p class="test-text">
+            Locul este perfect pentru petreceri private! Personalul a fost
+            flexibil și foarte receptiv la cerințele noastre. Atmosfera animată
+            a făcut petrecerea memorabilă.
+          </p>
+        </div>
+        <img
+          src="/gallery/gallery7.jpg"
+          alt=""
+          class="gallery-image"
+          onmouseenter="zoomIn(this)"
+          onmouseleave="zoomOut(this)"
+        />
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-div">
+        <img src="/images/logo.png" class="footer-logo" alt="" />
+        <p>
+          &copy; 2023 Basarabia, Volcov Alexandru. <br />
+          All rights reserved.
+        </p>
+        <div>
+          <p>Email: basarabia@gmail.com</p>
+          <p>Telefon: +37379223344</p>
+          <p>Adresă: Strada București 90, Chișinău, Moldova</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/index.js"></script>
+  </body>
+</html>

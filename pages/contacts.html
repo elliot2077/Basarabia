@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basarabia | Contacte</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/contacts.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/images/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <h2 class="header-sec">Restaurant</h2>
+        <h1 class="header-main">Basarabia</h1>
+      </div>
+
+      <div class="two">
+        <nav class="nav">
+          <a href="/index.html" class="nav-link">Acasă</a>
+          <a href="/pages/menu.html" class="nav-link">Meniu</a>
+          <a href="/pages/gallery.html" class="nav-link">Galerie</a>
+          <a href="/pages/contacts.html" class="nav-link">Contacte</a>
+        </nav>
+        <button class="nav-button" onclick="toggleNav()">Menu</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-contacts">
+        <div class="contacts-cell">
+          <form action="" class="container">
+            <h2 class="contacts-title">Faceți o rezervare</h2>
+            <label for="firstName">Nume:</label>
+            <input type="text" id="firstName" name="firstName" required />
+
+            <label for="lastName">Prenume:</label>
+            <input type="text" id="lastName" name="lastName" required />
+
+            <label for="numberOfPeople">Număr de persoane:</label>
+            <input
+              type="number"
+              id="numberOfPeople"
+              name="numberOfPeople"
+              required
+            />
+
+            <label for="phoneNumber">Telefon:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required />
+
+            <label for="emailAddress">Email:</label>
+            <input
+              type="email"
+              id="emailAddress"
+              name="emailAddress"
+              required
+            />
+
+            <label for="details">Detalii:</label>
+            <textarea id="details" name="details" rows="4"></textarea>
+
+            <button type="submit">Trimite</button>
+          </form>
+        </div>
+        <div class="contacts-cell">
+          <div class="container">
+            <h2 class="contacts-title">Contacte</h2>
+            <p class="contacts-t">Email:</p>
+            <a href="mailto:basarabia@gmail.com" class="contacts-link"
+              >basarabia@gmail.com</a
+            >
+            <p class="contacts-t">Telefon:</p>
+            <a href="tel:37379223344" class="contacts-link">+37379223344</a>
+            <p class="contacts-t">Adresă:</p>
+            <a
+              href="https://www.google.com/maps/place/Strada+Bucure%C8%99ti+90,+Chi%C8%99in%C4%83u+2012,+Moldova/@47.0251056,28.822998,20.5z/data=!4m6!3m5!1s0x40c97dcc58bc18dd:0x683bd274e946d764!8m2!3d47.025228!4d28.8229964!16s%2Fg%2F11gl35z8kf?entry=ttu"
+              class="contacts-link"
+            >
+              Strada București 90, Chișinău, Moldova
+            </a>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240.39603881019957!2d28.822997967918422!3d47.02510561809834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97dcc58bc18dd%3A0x683bd274e946d764!2sStrada%20Bucure%C8%99ti%2090%2C%20Chi%C8%99in%C4%83u%202012%2C%20Moldova!5e0!3m2!1sen!2s!4v1702115723474!5m2!1sen!2s"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-div">
+        <img src="/images/logo.png" class="footer-logo" alt="" />
+        <p>
+          &copy; 2023 Basarabia, Volcov Alexandru. <br />
+          All rights reserved.
+        </p>
+        <div>
+          <p>Email: basarabia@gmail.com</p>
+          <p>Telefon: +37379223344</p>
+          <p>Adresă: Strada București 90, Chișinău, Moldova</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/index.js"></script>
+  </body>
+</html>

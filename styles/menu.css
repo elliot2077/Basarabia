@@ -1,0 +1,54 @@
+.menu-container {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  align-items: center;
+  gap: 2rem;
+}
+
+.menu-title {
+  font-size: 3rem;
+  grid-column: span 2;
+}
+
+.menu-category {
+  background-color: #fecd85;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  grid-column: span 2;
+  border-radius: 9px;
+}
+
+.menu-dish {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.menu-dish:nth-child(odd) {
+  background-color: #e5d2b7;
+  border-radius: 9px;
+}
+
+.menu-dish:nth-child(even) {
+  background-color: #fef2e0;
+  border-radius: 9px;
+}
+
+.dish-name {
+  font-size: 1.75rem;
+}
+
+.dish-ing {
+  font-size: 1.25rem;
+}
+
+.dish-price {
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 600;
+}
